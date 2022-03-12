@@ -1,0 +1,685 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.text-right{
+    text-align: right;
+}
+.fa-long-arrow-right:hover{
+    margin: 0px 0px 0px 20px;
+}
+/* ********************************************
+*Nipro code start here
+*********************************************** */
+/* *********************************************
+*title -global code goes here
+*********************************************** */
+.title{
+    width: 100%;
+}
+.title img{
+    display: block;
+    margin: 0px auto;
+}
+.title h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+/* *********************************************
+*title -global code end here
+*********************************************** */
+/* header start */
+.header{
+    width: 100%;
+    padding: 0px 0px 20px;
+}
+.fixed-top{
+    width: 100%;
+    padding: 0px 0px 20px !important;
+    box-shadow: 0 0 5px 0px rgb(0 0 0 / 18%);
+}
+.header .title h2{
+    line-height: 30px;
+}
+.header .bg-light{
+    background: #fff !important;
+    padding: 0px;
+}
+.header .navbar-light .navbar-brand{
+    padding: 0px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    margin: 15px 20px 0px 0px;
+}
+.header .navbar-light .navbar-nav .nav-link{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin: 15px 20px 0px 0px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #333;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 180px 0px;
+    background: url("../images/banner.png") top center no-repeat ;
+}
+.banner h2{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 40px 0px;
+    width: 700px;
+}
+.banner a{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+    padding: 15px 35px;
+    border-radius: 0px;
+}
+.banner a:hover, .banner a:focus, .banner a:active:focus{
+    box-shadow: none;
+    color: #333;
+}
+.banner a i{
+    width: 45px;
+}
+.banner .owl-theme .owl-nav {
+    margin-top: 200px;
+    text-align: left;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    margin: 0px 40px 0px 0px;
+}
+.banner .owl-theme .owl-dots{
+    position: absolute;
+    bottom: -7px;
+    left: 38px;
+}
+.banner .owl-theme .owl-dots .owl-dot span{
+    width: 2px;
+    height: 17px;
+    margin: 3px 5px;
+}
+/* banner end */
+
+/* welcome start */
+.welcome{
+    width: 100%;
+    padding: 20px 0px;
+    background: #fff;
+}
+.welcome p {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+}
+.welcome .welcome-cards{
+    width: 100%;
+    margin: 60px 0px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 1px 1px 6px 1px #ccc;
+    transition: ease-in-out .5s;
+}
+.welcome .welcome-cards:hover{
+    transform: translate(0%,-2%);
+}
+.welcome-cards .welcome-icon{
+    position: relative;
+    height: 60px;
+    transform: translate(0%, -30%);
+    width: 80px;
+    margin: 0px auto;
+    background: #fff;
+}
+.welcome .welcome-cards:hover .welcome-icon{
+    background: transparent;
+}
+.welcome-cards .welcome-content{
+    width: 100%;
+}
+.welcome-cards .welcome-content .wel-title h2{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+    margin: 20px 0px 0px;
+}
+.welcome-cards .welcome-content p{
+    width: 60%;
+}
+.welcome-cards .welcome-content .btn-light{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #8e8e8e;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+    border: none;
+}
+.btn-light:hover{
+    color: #578aaf !important;
+    border: 1px solid #578aaf !important;
+}
+.btn-light:hover .fa{
+    margin: 0px 0px 0px 20px !important;
+    transition: ease 1s;
+}
+.welcome-cards .welcome-content .fa{
+    margin: 0px 0px 0px 15px;
+}
+/* welcome end */
+
+/* about-us start */
+.about-us{
+    width: 100%;
+    padding: 80px 0px;
+}
+.about-us .title h2{
+    text-align: left;   
+    line-height: 22px;
+    margin: 0px;
+} 
+.about-us p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #999;
+    margin: 30px 0px;
+    width: 65%;
+    text-align: justify;
+}
+.about-us .btn-light{
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    border-radius: 0px;
+    margin: 0px 0px 20px 0px;
+}
+.about-us .btn-light .fa{
+    margin: 0px 0px 0px 20px;
+}
+/* about-us end */
+
+/* recent start */
+.recent-work{
+    width: 100%;
+    background: #f8f8f8;
+}
+.recent-work .recent-title{
+    width: 100%;
+    padding: 80px 0px 20px;
+}
+.recent-work .recent-title ul{
+    text-align: center;
+}
+.recent-work .recent-title ul li{
+    list-style: none;
+    display: inline-block; 
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.recent-work .recent-title .mixitup-control-active{
+    border: 5px solid #333;
+    color: #333;
+}
+.recent-work .card{
+    width: 100%;
+    margin: 20px 0px 80px;
+    position: relative;
+}
+.recent-work .card:hover .card-body, .card:hover::after{
+    display: block;
+    cursor: pointer;
+    transition: 1s;
+}
+.recent-work .card::after{
+    content: "";
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    position:absolute;
+    display: none;
+    transition:1s;
+}
+.recent-work .card .card-body{
+    width: 100%;
+    display: none ;
+    transition: 1s;
+    position:absolute;
+    bottom: 0px;
+    background: #fff;
+    z-index: 3;
+}
+.recent-work .card .card-body h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+.recent-work .card .card-body img{
+    position: absolute;
+    top: -235%;
+    left: 38%;
+}
+/* recent end */
+
+/* choose-nipro start */
+.choose-nipro{
+    width: 100%;
+    background: #fff;
+}
+.choose-nipro .wrapper{
+    padding: 80px 0px;
+}
+.inner-choose{
+    width: 80%;
+    border-bottom: 1px solid #8e8e8e;
+    margin: 0px 0px 60px;
+}
+.inner-choose:hover{
+    border-color: #333;
+}
+.inner-choose:hover h4{
+    color: #333;
+}
+.inner-choose h4{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 32px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+.inner-choose p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 30px 0px;
+}
+/* choose-nipro end */
+
+/* Who Work With US start */
+.worker{
+    width: 100%;
+    padding: 60px 0px;
+    background: url("../images/worker-bg.png") top center no-repeat;
+}
+.worker .title{
+    margin: -60px 0px 60px;
+}
+.worker .card{
+    width: 100%;
+    position: relative;
+}
+.worker .card:hover .worker-icon{
+    display: inline-block;
+}
+.worker .card .worker-icon{
+    position: absolute;
+    display: none;
+    margin: 50px 0px 0px;
+    background: #fff;
+    transition: 1s;
+}
+.worker .card .worker-icon .fa{
+    font-size: 30px;
+    line-height: 30px;
+    display: block;
+    color: #8e8e8e;
+    padding: 10px;
+    transition: 1s;
+}
+.worker .card .worker-icon .fa:hover{
+    border-right: 1px solid #333;
+    color: #333;
+    background: #ccc;
+}
+.worker .card .card-body{
+    width: 100%;
+}
+.worker .card .card-body h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.worker .card .card-body p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+/* Who Work With US end */
+
+/* best pricing start */
+.pricing{
+    width: 100%;
+}
+.pricing .price-wrapper{
+    width: 100%;
+    padding: 80px 0px;
+}
+.price-wrapper .price-cards{
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 40px 0px;
+}
+.price-wrapper .price-cards:hover{
+    border: 1px solid #333;
+}
+.price-wrapper .price-cards .price-head{
+    position: absolute;
+    top: -4%;
+    transform: translate(45%,0px);
+    padding: 0px 10px;
+    background: #fff;
+    text-align: center;
+}
+.price-wrapper .price-cards .price-head p{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #333;
+}
+.price-wrapper .price-cards .price-content{
+    padding: 0px 40px;
+    width: 100%;
+}
+.price-wrapper .price-cards .price-content h2{
+    margin: 20px 0px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #333;
+}
+.price-wrapper .price-cards .price-content span{
+    font-size: 16px;
+    line-height: 26px;
+    color: #8e8e8e;
+}
+.price-wrapper .price-cards .price-content p{
+    font-size: 16px;
+    line-height: 36px;
+    color: #8e8e8e;
+}
+.price-wrapper .price-cards .price-content a{
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #ccc;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin: 20px 0px 10px;
+}
+.price-wrapper .price-cards:hover .price-content a{
+    border: 1px solid #333;
+    color: #333;
+}
+.price-wrapper .price-cards .price-content .fa{
+    width: 50px;
+}
+/* best pricing end */
+
+/* call to action start */
+.call-action{
+    width: 100%;
+    padding: 20px 0px;
+    background: #f8f8f8;
+}
+.call-action h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #333;
+    margin: 12px 0px;
+}
+.call-action .btn-light{
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    border-radius: 0px;
+}
+.call-action a .fa{
+    width: 50px;
+}
+/* call to action end */
+
+/* testimonial start */
+.testimonial{
+    width: 100%;
+    padding: 60px 0px;
+}
+.testimonial .card{
+    width: 100%;
+    padding: 20px;
+    z-index: 1 !important;
+}
+.testimonial .card img{
+    width: 20rem;
+}   
+.testimonial .card-body{
+    width: 100%;
+    padding: 0px;
+}
+.testimonial .card-body h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #333;
+    
+}
+.testimonial .card-body h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #333;
+}
+.testimonial .card-body .card-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+.testimonial .card-body p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #8e8e8e;
+    font-weight: 400;
+    width: 70%;
+    text-align: justify;
+}
+.swiper-pagination{
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    width: 37px !important;
+    height: 100%;
+    right: 0% !important;
+    top: 0px;
+    z-index: 3 !important;
+}
+/* testimonial end */
+
+/* contact us start */
+.contact{
+    width: 100%;
+}
+.contact .contact-border{
+    border: 1px solid #8e8e8e;
+}
+.contact .contact-title h1{
+    position: absolute;
+    transform: translate(50%,50%);
+    margin: -50px 0px 0px 12%;
+    padding: 0px 20px;
+    background: #fff;
+}
+form{
+    width: 100%;
+    padding: 60px 10%;
+}
+form .form-control{
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    resize: none;
+}
+form .form-control:hover, form .form-control:focus{
+    border-color: #000 ;
+    color: #000 !important;
+}
+.contact form .btn-group{
+    display: block;
+    text-align: center;
+}
+.contact form .btn-light{
+    padding: 12px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* contact us end */
+
+/* footer start */
+.footer{
+    width: 100%;
+    background: url("../images/footer_bg.png") center bottom no-repeat;
+    padding: 80px 0px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #f2f3f3;
+    font-weight: 400;
+    text-align: center;
+    width: 330px;
+    margin: 40px auto;
+}
+.footer .icon-group{
+    width: 100%;
+    text-align: center;
+}
+.footer .icon-group .fa{
+    margin: 0px 10px 0px 0px;
+    font-size: 25px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 1s;
+}
+.footer .icon-group .fa:hover{
+    color: #000;
+    background: #fff;
+}
+.footer-full-bar{
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin: 60px 0px -80px;
+
+}
+.footer .footer-bar-right{
+    width: 50%;
+    display: inline-block;
+}
+.footer .footer-bar-right p{
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.footer .footer-bar-left{
+    width: 49%;
+    display: inline-block;
+}
+.footer .footer-bar-left li{
+    display: inline-block;
+}
+.footer .footer-bar-left a{
+    display: block;
+    margin: 0px 20px 0px 0px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: right;
+}
+/* footer end */
+
+/* ********************************************
+*Lato code end here
+*********************************************** */
